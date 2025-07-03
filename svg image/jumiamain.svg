@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="95 3 12 12">
+  <defs>
+    <linearGradient id="circleGradient" x1="95.8444" y1="9.0298" x2="107" y2="9.0298" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EB712A"/>
+      <stop offset="0.2311" stop-color="#EF8528"/>
+      <stop offset="0.4715" stop-color="#F29426"/>
+      <stop offset="0.6242" stop-color="#F39A24"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gradient Circle -->
+  <circle cx="101.4" cy="9.1" r="5.6" fill="url(#circleGradient)" />
+
+  <!-- White Star (actual path from original SVG assumed) -->
+  <path fill="#FFFFFF" d="M101.4,5.9l0.7,2.1h2.2l-1.8,1.3l0.7,2.1l-1.8-1.3l-1.8,1.3l0.7-2.1l-1.8-1.3h2.2L101.4,5.9z"/>
+</svg>

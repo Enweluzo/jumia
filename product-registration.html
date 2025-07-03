@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jumia</title>
+  <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/product-reg.css">
+	<link rel="stylesheet" href="style/product-reg-next.css">
+	<link rel="icon" href="svg image/jumiamain.svg">
+</head>
+<body>
+		<div class="body">
+			<div class="confetti-container" id="confetti-container"></div>
+			<div class="success-container">
+					<div class="success-icon">
+							<div class="checkmark"></div>
+					</div>
+					<h1>Task Completed!</h1>
+					<p>Congratulations on completing your task successfully. Your accomplishment has been recorded and you're one step closer to your goals.</p>
+					<button class="btn-continue" id="continueBtn">Continue</button>
+			</div>
+		</div>
+		<div class="next">
+    <header>
+        <img src="svg image/jumia.svg" alt="">
+    </header>
+    <main>
+        <div class="container">
+            <div class="registration-form">
+                <h2>Product Registration</h2>
+
+                <label for="productName">Product Name</label>
+                <input type="text" id="productName" name="productName" required />
+
+                <label for="productImage">Product Image Link</label>
+                <input type="text" id="productImage" name="productImage" required />
+
+                <label for="productPrice">Product Price (&#8358)</label>
+                <input type="number" id="productPrice" name="productPrice" required />
+
+                <button type="submit" id="register-button">Register</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class="foot">
+                <div class="foot-left">
+                    <svg width="180" height="50" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="160" height="40" fill="#313133"/>
+                    <text x="10" y="28" font-family="Segoe UI, sans-serif" font-weight="600" font-size="24" fill="white" letter-spacing="1">JUMIA</text>
+                    <g transform="translate(115, 10)">
+                        <circle cx="15" cy="10" r="10" fill="#FFA500"/>
+                        <polygon points="15,2 17,8 23,8 18,11 20,18 15,14 10,18 12,11 7,8 13,8" fill="black"/>
+                    </g>
+                    </svg>
+
+                </div>
+                <div class="foot-middle">
+                    <p class="p-foot1">New to Jumia?</p>
+                    <p class="p-foot2">Subscribe to our newsletter to get updates on our latest offers!</p>
+                    <div style="display: flex;">
+                        <div class="enter-mail">
+                            <span style="font-size: 32px;">&#9993</span>
+                            <input class="inp1" type="email" placeholder=" Enter E-mail Address">
+                        </div>
+                        <button style="margin-left: 10px;">Subscribe</button>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <input id="box" type="checkbox">
+                        <label for="id">
+                            I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe<br> <span style="margin-left: 22px;">from newsletters at any time.</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="foot-right">
+
+                </div>
+            </div>
+    </footer>
+		</div>
+		<script src="script/productRegistration-next.js" type="module"></script>
+    <script src="script/productRegistration.js" type="module"></script>
+</body>
+</html>

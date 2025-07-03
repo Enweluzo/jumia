@@ -1,0 +1,50 @@
+/* hidden styles */
+.menu-mobile,.top-left-mobile{
+  display: none;
+}
+
+/* Phone responsive Styles */
+@media (max-width: 500px){
+  .searchbut, .top-left, footer{
+    display: none;
+  }
+
+  .top-left-mobile{
+    display: flex;
+    width: 24px;
+    margin: 0 10px;
+  }
+  .top-left-mobile img{
+    width: 100%
+  }
+  .menu-mobile{
+    display: flex;
+    margin: 0 10px;
+    width: 30px;
+    height: 25px;
+  }
+  .midle-top{
+    border-radius: 30px;
+  }
+  .top-left-mobile img{
+    display: flex;
+    width: 20px;
+  }
+}
+/* Tablet responsive Styles */
+@media (max-width: 775px) {
+  .innerhead {
+    padding: 0;
+  }
+
+  .top-right {
+    display: none;
+  }
+
+  .menu-top {
+    width: 500px;
+    justify-content: center;
+    display: none;
+  }
+  
+}

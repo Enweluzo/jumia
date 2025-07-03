@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia</title>
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/cart.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="  position: fixed;">
+        <div class="mobile-top">
+            <div class="mobile">
+                <img src="svg image/menu.svg">
+            </div>
+            <div class="mobile" style="width: 135px;">
+                <img style="width: 100%;height: 100%;" src="photo/logo-left.PNG" alt="">
+            </div>
+            <div class="mobile" style="margin-left: auto; margin-right: 10px;">
+                <div style="margin-right:15px ;">
+                    <img src="svg image/account.svg" >
+                </div>
+                <a href="cart.html" > <div style="height:24px;width: 23px;">
+                    <img style="object-fit: contain;height: 100%;width: 100%;" src="photo/cart.png" alt="">
+                </div></a>
+            </div> 
+        </div>
+        <div class="head">
+            <div class="innerhead">
+
+                <a href="index.html"><div class="top-left">
+                    <img class="top-left-image" src="photo/logo-left.PNG">
+                </div></a>
+
+                <div class="midle-top">
+                    <img style="width: 24px;" src="svg image/search.svg" alt="">
+                    <div style="position: relative; flex: 1;">
+                        <input type="text" class="inp" placeholder="Search products,brands and categorys">
+                        <div class="search-div">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <button class="searchbut">
+                        Search
+                </button>
+                <div class="menu-top"><div><button >Menu</button></div></div>
+                
+                <div class=" top-right new-top-right">
+                    <div class="common-right remove-right">
+                        <img style="width:23px; height:24px" src="svg image/account.svg" alt="">
+                        <button class="account">Account</button>
+                    </div>
+                    <div class="common-right remove-right">
+                        <img style="width: 22px;height: 24px;" src="svg image/delivery.svg" alt="">
+                        <button class="account">Delivery</button>
+                    </div>
+                    <a href="cart.html" style="text-decoration: none;"><div class="common-right remove-right">
+                        <div style="height:30px;width: 30px;">
+                            <img style="height: 100%;width: 100%; object-fit: contain;" src="photo/cart.png" alt="">
+                        </div>
+                        <button class="account account-cart" >Cart</button>
+                        <span id="cart"></span>
+                    </div></a>
+                </div>
+                
+            </div>
+        </div>
+
+    </header>
+    <div style="height: 90px;width: 100%;"></div>
+    <main>           
+        <div class="cart-left" >
+            <div class="cart-left-top">
+                Cart <span id="cart"></span>
+            </div>
+            <div class="js">
+                <div class="empty-cart">
+                    <div class="empty-cart-content">
+                        <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 6h13m-11 0a1 1 0 100 2 1 1 0 000-2zm10 0a1 1 0 100 2 1 1 0 000-2z" />
+                        </svg>
+                        <h2>Your cart is empty</h2>
+                        <p>Looks like you haven’t added anything to your cart yet.</p>
+                        <a href="index.html"><button class="shop-btn">Browse Products</button></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div style="padding-left: 10px;margin-right: auto;">
+            <div class="cart-right-top">
+                <span style="color: black;font-weight: 500;">Choose a delivery option:</span>
+                <div class="cart-day-js">
+                
+            
+                </div>
+            </div>
+            <div class="cart-right">
+            <div class="payment-summary-title">
+                Order Summary
+            </div>
+
+            <div class="payment-summary-row">
+                <div>Items (0):</div>
+                <div class="payment-summary-money">&#8358 0.00</div>
+            </div>
+
+            <div class="payment-summary-row">
+                <div>Shipping &amp; handling:</div>
+                <div class="payment-summary-money">&#8358 0.00</div>
+            </div>
+
+            <div class="payment-summary-row subtotal-row">
+                <div>Total before tax:</div>
+                <div class="payment-summary-money">&#8358 0.00</div>
+            </div>
+
+            <div class="payment-summary-row">
+                <div>Estimated tax (10%):</div>
+                <div class="payment-summary-money">&#8358 0.00</div>
+            </div>
+
+            <div class="payment-summary-row total-row">
+                <div>Order total:</div>
+                <div class="payment-summary-money">&#8358 0.00</div>
+            </div>
+
+            <a href="order.html"><button class="place-order-button button-primary">
+                Place your order
+            </button></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class="foot">
+                <div class="foot-left">
+                    <svg width="180" height="50" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="160" height="40" fill="#313133"/>
+                    <text x="10" y="28" font-family="Segoe UI, sans-serif" font-weight="600" font-size="24" fill="white" letter-spacing="1">JUMIA</text>
+                    <g transform="translate(115, 10)">
+                        <circle cx="15" cy="10" r="10" fill="#FFA500"/>
+                        <polygon points="15,2 17,8 23,8 18,11 20,18 15,14 10,18 12,11 7,8 13,8" fill="black"/>
+                    </g>
+                    </svg>
+
+                </div>
+                <div class="foot-middle">
+                    <p class="p-foot1">New to Jumia?</p>
+                    <p class="p-foot2">Subscribe to our newsletter to get updates on our latest offers!</p>
+                    <div style="display: flex;">
+                        <div class="enter-mail">
+                            <span style="font-size: 32px;">&#9993</span>
+                            <input class="inp1" type="email" placeholder=" Enter E-mail Address">
+                        </div>
+                        <button style="margin-left: 10px;">Subscribe</button>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <input id="box" type="checkbox">
+                        <label for="id">
+                            I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe<br> <span style="margin-left: 22px;">from newsletters at any time.</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="foot-right">
+
+                </div>
+            </div>
+    </footer>
+    <div class="test"></div>
+    <script src="data/day.js"></script>
+    <script type="module" src="script/Cart.js"></script>
+    <script type="module" src="script/search.js"></script>
+</body>
+</html>

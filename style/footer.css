@@ -1,0 +1,61 @@
+/* Footer Container */
+.foot {
+  height: 210px;
+  background-color: #313133;
+  padding: 24px 20px 0px;
+  display: flex;
+}
+
+/* Footer Columns */
+.foot-left {
+  width: 296px;
+  height: 100%;
+}
+
+.foot-middle {
+  flex: 1;
+}
+
+.foot-right {
+  width: 280px;
+  padding-left: 8px;
+  margin-left: 72px;
+}
+
+/* Footer Text */
+.p-foot1 {
+  color: white;
+  margin: 0 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.p-foot2 {
+  color: #f1f1f2;
+  margin-top: 0;
+}
+
+/* Email Input Container */
+.enter-mail {
+  height: 29px;
+  display: flex;
+  align-items: center;
+  border: 1px rgb(51, 50, 50) solid;
+  background-color: white;
+  width: fit-content;
+}
+
+.inp1 {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  height: 27px;
+  padding: 0;
+}
+
+/* Label Styling */
+label {
+  color: rgb(29, 28, 28);
+  font-size: 14px;
+}
